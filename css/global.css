@@ -1,0 +1,11 @@
+body{
+    font-family: 'Mohave', sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+.section-heading{
+    font-size: 55px;
+    font-weight: 700;
+    color: #f9f9f9;
+    letter-spacing: 1.5px;
+}

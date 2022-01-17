@@ -1,0 +1,136 @@
+#news{
+    height: 750px;
+    background-image: linear-gradient( to left top, black , #2C221B );
+    padding: 100px 80px;
+}
+.news-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.see-more{
+    background-color: #292929;
+    padding: 8px 12px;
+    border-radius: 6.5px;
+    transition: background-color 0.2s linear;
+}
+.see-more:hover{
+    background-color: #444444;
+}
+.see-more-btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f9f9f9;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.news-content{
+    margin-top: 60px;
+    display: flex;
+}
+.news-main{
+    position: relative;
+    width: 58%;
+    margin-right: 25px;
+    max-height: 421px;
+}
+
+.news-main img{
+    width: 100%;
+    border-radius: 8px;
+    transition: border 0.2s linear;
+    cursor: pointer;
+}
+.news-main img:hover{
+    border: 2px solid gray;
+}
+.news-main p{
+    width: 80%;
+    font-size: 36px;
+    font-weight: 700;
+    color: #f9f9f9;
+    position: absolute;
+    bottom: 60px;
+    left: 24px;
+    letter-spacing: 1.3px;
+    line-height: 40px;
+    user-select: none;
+    pointer-events: none;
+}
+.news-text{
+    color: #656462;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.news-main span{       
+    position:absolute;  
+    bottom: 24px;
+    left: 24px;
+    user-select: none;
+    pointer-events: none;
+}
+.news-list{
+    width: 40%;
+    
+}
+.news-item{
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: border 0.25s linear;
+}
+.news-item:hover{
+    border: 2px solid gray;
+}
+.card-bg{
+    display: flex;
+}
+.black-block{
+    width: 60%;
+    height: 140px;
+    background-color: #1F1F1F;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.triangle{
+    position: absolute;
+    top: 0px;
+    right: 192px;
+    border-top: 70px solid #1F1F1F;
+    border-right: 20px solid transparent;
+    border-bottom: 70px solid transparent;
+    border-left: 20px solid #1F1F1F;
+}
+.news-item:hover .black-block{
+    background-color: #333;
+}
+.news-item:hover .triangle{
+    border-color: #333;
+    border-bottom-color: transparent ;
+    border-right-color: transparent ;
+}
+.card-bg img{
+    width: 42.5%;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card-title p{
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    position: absolute;
+    top: 40px;
+    left: 26px;
+    width: 50%;
+}
+.card-title span{
+    position: absolute;
+    bottom: 30px;
+    left: 26px;
+}
