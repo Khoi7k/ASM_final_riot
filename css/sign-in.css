@@ -1,0 +1,165 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#out-line{
+    background-image: url(https://www.riotgames.com/darkroom/1440/0a8b4600c88cc7e4bd392b90405f892a:db36c4fc05c48e6fd4fb6b9799f6b2ca/11-20-embargo-riot-riotxarcane-phase02-4k.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    padding: 33px 40px
+}
+.header{
+    width: 100%;
+}
+.main-logo{
+    width: 12%;
+}
+.sign-in{
+    width: 25%;
+    background-color: #F9F9F9;
+    margin: 37px auto;
+    height: 70%;
+    padding: 85px 54px 35px 54px;
+}
+.heading{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+.attention{
+    color: #be29cc;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 48px;
+    text-align: center;
+}
+.sign-in-input{
+    margin-top: 10px;
+    width: 100%;
+}
+.sign-in-form{
+    position: relative;
+    width: 100%;
+}
+.username{
+    width: 94%;
+    height: 55px;
+    background-color: #e8e8e8;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 17px;
+    transition: all 0.15s linear;
+}
+.placeholder{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    font-size: 12px;
+    font-weight: 700;
+    color: #606060;
+    user-select: none;
+    pointer-events: none;
+}
+.username:focus{
+    background-color: #f9f9f9;
+}
+.username:focus~.placeholder{
+    display: none;
+}
+.sign-in-list{
+    margin-top: 25px;
+    display: flex;
+    gap: 15px
+}
+.sign-in-item{
+    width: 33.3%;   
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo1{
+    width: 25%;
+    transform: translate(150%, 20%);
+}
+
+.item1{
+    background-color: #1877F2;
+    border: 1px solid blue
+}
+.item2{
+    border: 2px solid #e7e7e7;
+}
+.logo2{
+    width: 30%;
+    transform: translate(120%, 28%);
+}
+.item3{
+    background-color: #000;
+}
+.logo3{
+    width: 20%;
+    transform: translate(200%, 20%);
+}
+.stay-sign{
+    margin-top: 20px;
+    user-select: none;
+}
+.stay-sign label{
+    font-size: 15px;
+    color: #272727;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.sign-in-bottom{
+    margin-top: 20px;
+    text-align: center;
+}
+.btn{
+    background-color: #D13639;
+    font-size: 60px;
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #BC252A;
+}
+.sign-in-bottom p{
+    color: #606060;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.sign-in-bottom p:hover{
+    color:#000
+}
+.footer{
+    text-align: right;
+    margin-top: 70px;
+}
+.footer-top{
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+.footer-top p{
+    color: #e7e7e7;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.footer-bot{
+    font-size: 10px;
+    margin-top: 15px;
+    color: #e7e7e7;
+    font-weight: 800;
+}
+

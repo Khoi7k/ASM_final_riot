@@ -1,8 +1,8 @@
 #header{
-    background-image: url(https://www.riotgames.com/darkroom/2000/5cc61cc2fde2606e16e599aa44cccea1:d5b8d41a18d5162a1a9af3cec3b115b2/zaun-3830x1644-2.jpg);
+    background-image: url(https://www.riotgames.com/assets/img/structure/6819de603d160dca6a4b7d51a3cdaa8b/hero--dark-sketch.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 643px;
+    height: 561px;
     color:#f9f9f9;
     font-family: 'Mohave', sans-serif;
 }
@@ -176,44 +176,124 @@
     color: black;
     text-decoration: none;
 }
-/* ------------------------------------ */
 .header-content{
-    width: 35%;
+    display: flex;  
+}
+.header-img{
+    width: 640px;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+.header-title{
+    margin-top: 120px;
+    margin-left: 80px;
+}
+.header-badge{
+    padding: 5px;
+    background-color: #D13639;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.header-heading{
+    font-size: 120px;
+    font-weight: bold;
+}
+#our-story{
+    height: 1055px;
+    font-family: 'Poppins', sans-serif;
+    padding: 80px 323px;
+    padding-bottom: 0px;
+    background-color: #E7E6E3;
+}
+.OS-heading{
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.OS-text{
+    font-size: 22px;
+    color: #2b2a29;
+    line-height: 35px;
+}
+.OS-text>a{
+    font-weight: 700;
+    font-style: italic;
+    color: #000;
+}
+.OS-text>a:hover{
+    text-decoration-color: #D13639;
+}
+.about-us-spacing{
+    background-image: url(https://www.riotgames.com/assets/img/structure/6d79447d110ef217a5a784efe55ba29b/texture-light@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 213px;
+}
+.ahri{
+    height: 100%;
+    float: right    ;
+}
+#diversity{
+    font-family: 'Poppins', sans-serif;
+    padding: 50px 80px;
+    background-color: #E7E6E3;
+}
+.diver-content{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 138px;
+}
+.content-text{
+    max-width: 467px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 50px;
+    justify-content: center;
 }
-.arcane{
-    max-width: 360px;
-    margin-top: 180px;
+.content-heading{
+    font-size: 44px;
+    font-weight: 800;
 }
-.heading{
-    font-size: 35px;
-    letter-spacing: 1px;
+.content-text p{
+    color: #2b2a29;
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 46px;
+    margin-bottom: 35px;
 }
-.stream-btn{
-    display: flex;
-    align-items: center;
-    background: linear-gradient(135deg,#ba8964 0,#d1ac90 100%);
-    padding: 15px 24px 16px 12px;
-    border-radius: 24px;
-    gap: 0 15px;
+.content-btn{
+    padding: 15px 30px;
+    background-color: #D13639;
+    width: 105px;
+    border-radius: 26px;
+    color: #f9f9f9;
     cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
 }
-.stream-btn:hover{
-    box-shadow: 0 10px 45px -10px rgb(186 137 100 / 15%), 0 0 20px -10px rgb(186 137 100 / 35%), 0 10px 30px -10px rgb(186 137 100 / 25%);
+.content-btn a{
+    color: #f9f9f9;
+    text-decoration: none;
 }
-.stream-btn span{
-    color: black;
-    font-size: 40px;
-    letter-spacing: 1px;
+.content-btn:hover{
+    background-color: #2B2A29;
 }
-.icon-bg{
-    padding: 8px;
-    background-color: black;
-    border-radius: 50%;
+.content-btn:hover .content-btn a{
+    text-decoration: underline;
+    text-decoration-color: gray;
 }
-.icon{
-    font-size: 30px;
+.diver-img2{
+    transform: translateX(14%);
+}
+.content-text2{
+    transform: translateX(15%);
+}
+.tools{
+    display: flex;
+    justify-content: space-evenly;
+}
+.like-cmt{
+    display: flex;
+    flex-direction: column;
 }
